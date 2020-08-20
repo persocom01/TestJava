@@ -11,7 +11,7 @@
 // modifiers.
 // Access modifiers: default, public, protected, private.
 // Non access modifiers: final, abstract, strictfp.
-public class _01_Classes {
+public class _01_ClassTest {
 
   // Method names are in camelCase, with the first letter in lower case.
   // Java program processing starts with the main method, which is neccessary in
