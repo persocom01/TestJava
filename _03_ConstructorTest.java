@@ -1,4 +1,5 @@
 // Demonstrates constructors.
+
 class _03a_ConTest {
   int x;
 
@@ -12,10 +13,11 @@ class _03a_ConTest {
   }
 }
 
-class _03_ConstructorTest {
+public class _03_ConstructorTest {
   public static void main(String args[]) {
     _03a_ConTest c1 = new _03a_ConTest(100);
     _03a_ConTest c2 = new _03a_ConTest(200);
-    System.out.println("1st number: "+ c1.x + "\n2nd number: " + c2.x);
+    System.out.println("1st number: " + c1.x);
+    System.out.println("2nd number: " + c2.x);
   }
 }
