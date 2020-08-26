@@ -11,7 +11,7 @@ public class _05_VariableTest {
   // There are 3 types of variables:
   // Local - defined inside methods, they cannot have access modifiers and have
   // no default value.
-  public void localVar() {
+  void localVar() {
     int d;
     // Without this line, the following error will occur:
     // error: variable d might not have been initialized
@@ -21,20 +21,28 @@ public class _05_VariableTest {
   }
 
   // Instance - variables defined inside classes but outside methods.
-  public void instanceVar() {
+  void instanceVar() {
     // Instance variables have default values.
     System.out.println("instance var: " + a);
   }
 
   // Class - instance variables with the static keyword.
   // Class variables are rarely used other than being declared constants.
-  // Constants are varialbes  that are final and static, and never change their
+  // Constants are variables  that are final and static, and never change their
   // value. When class variables are public static final, their names are in
   // all caps.
   public static final String TITLE = "variable testing program";
-  public void classVar(String s) {
+  void classVar(String s) {
     // When passing variables to a method, only class variables are allowed.
     System.out.println("class var: " + s);
+  }
+
+  // While not a type of variable per se. Variables can be initialized with a
+  // conditional operator in the form:
+  // dataType var = condition ? ifTrue : ifFalse;
+  int f = (e > d) ? 6 : 0;
+  void conditionalVar() {
+    System.out.println("conditional var: " + f);
   }
 
   public static void main(String []args) {
@@ -42,6 +50,7 @@ public class _05_VariableTest {
     varTest.localVar();
     varTest.instanceVar();
     varTest.classVar(TITLE);
+    varTest.conditionalVar();
   }
 
 }
