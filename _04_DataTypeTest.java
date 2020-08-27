@@ -25,17 +25,17 @@ public class _04_DataTypeTest {
   String strEx = "The quick brown fox jumps over the lazy dog";
 
   public static void main(String []args) {
-    _04_DataTypeTest dataTest = new _04_DataTypeTest();
+    _04_DataTypeTest dt = new _04_DataTypeTest();
     System.out.println("data type examples");
-    System.out.println("byte: " + dataTest.byteMax);
-    System.out.println("short: " + dataTest.shortMax);
-    System.out.println("int: " + dataTest.intMax);
-    System.out.println("long: " + dataTest.longMax);
-    System.out.println("float: " + dataTest.floatEx);
-    System.out.println("double: " + dataTest.doubleEx);
-    System.out.println("char: " + dataTest.charEx);
-    System.out.println("boolean: " + dataTest.isBool);
-    System.out.println("String: " + dataTest.strEx);
+    System.out.println("byte: " + dt.byteMax);
+    System.out.println("short: " + dt.shortMax);
+    System.out.println("int: " + dt.intMax);
+    System.out.println("long: " + dt.longMax);
+    System.out.println("float: " + dt.floatEx);
+    System.out.println("double: " + dt.doubleEx);
+    System.out.println("char: " + dt.charEx);
+    System.out.println("boolean: " + dt.isBool);
+    System.out.println("String: " + dt.strEx);
   }
 }
 

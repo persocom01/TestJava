@@ -23,11 +23,11 @@ public class _02_ObjectTest {
 
   public static void main(String []args) {
     // Create class object.
-    _02_ObjectTest objTest = new _02_ObjectTest(name);
+    _02_ObjectTest ot = new _02_ObjectTest(name);
     // Call method.
-    objTest.setAge(25);
-    objTest.getAge();
+    ot.setAge(25);
+    ot.getAge();
     // Retrieve instance variable.
-    System.out.println("char value is " + objTest.letter);
+    System.out.println("char value is " + ot.letter);
   }
 }

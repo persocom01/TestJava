@@ -102,9 +102,9 @@ public class _06_ModifierTest {
   }
 
   public static void main(String []args) {
-    _06_ModifierTest modTest = new _06_ModifierTest();
-    modTest.accessTest();
-    modTest.nonAccessTest();
-    modTest.abstractTest();
+    _06_ModifierTest mt = new _06_ModifierTest();
+    mt.accessTest();
+    mt.nonAccessTest();
+    mt.abstractTest();
   }
 }

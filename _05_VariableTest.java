@@ -46,11 +46,11 @@ public class _05_VariableTest {
   }
 
   public static void main(String []args) {
-    _05_VariableTest varTest = new _05_VariableTest();
-    varTest.localVar();
-    varTest.instanceVar();
-    varTest.classVar(TITLE);
-    varTest.conditionalVar();
+    _05_VariableTest vt = new _05_VariableTest();
+    vt.localVar();
+    vt.instanceVar();
+    vt.classVar(TITLE);
+    vt.conditionalVar();
   }
 
 }

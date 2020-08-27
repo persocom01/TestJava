@@ -133,13 +133,13 @@ public class _07_OperatorTest {
   }
 
   public static void main(String []args) {
-    _07_OperatorTest opTest = new _07_OperatorTest();
-    opTest.arithmeticOperatorTest();
+    _07_OperatorTest ot = new _07_OperatorTest();
+    ot.arithmeticOperatorTest();
     System.out.println();
-    opTest.relationalOperatorTest();
+    ot.relationalOperatorTest();
     System.out.println();
-    opTest.bitwiseOperatorTest();
+    ot.bitwiseOperatorTest();
     System.out.println();
-    opTest.logicalOperatorTest();
+    ot.logicalOperatorTest();
   }
 }

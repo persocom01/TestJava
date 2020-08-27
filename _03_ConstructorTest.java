@@ -8,7 +8,7 @@ class _03a_ConTest {
   // constructor is used. As constructors are used to initiate the object, it
   // cannot return anything.
   // Constructors can optionally accept arguments.
-  public _03a_ConTest(int num) {
+  _03a_ConTest(int num) {
     x = num;
   }
 }
