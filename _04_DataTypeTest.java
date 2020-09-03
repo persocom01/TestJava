@@ -4,6 +4,11 @@ public class _04_DataTypeTest {
   // There are 8 primitive (basic) data types in java. Online documentation can
   // be found here:
   // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+  // It should be noted that it is possible to initialize a variable using
+  // class wrappers instead of the primitive data type.
+  // Byte n; and byte n; are not the same. The former is a class, which takes
+  // up more memory, but has can execute methods. The importance of this can
+  // be seen when object oriented programming comes into play.
   byte byteMax = Byte.MAX_VALUE;
   short shortMax = Short.MAX_VALUE;
   int intMax = Integer.MAX_VALUE;
@@ -50,4 +55,4 @@ public class _04_DataTypeTest {
 // \'	Single quote
 // \\	backslash
 // \ddd	Octal character (ddd)
-// \uxxxx	Hexadecimal UNICODE character (xxxx)
+// \udddd	Hexadecimal UNICODE character (dddd)
