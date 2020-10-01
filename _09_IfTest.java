@@ -41,7 +41,7 @@ public class _09_IfTest {
       // When using enum, case uses their unqualified names. This means
       // north instead of Direction.north
       case north:
-        System.out.println(d + " is where the polar bears live");.
+        System.out.println(d + " is where the polar bears live");
         System.out.println(d + " is where a continent lies encased in ice.");
         break;
       case east:

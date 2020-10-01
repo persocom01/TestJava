@@ -14,7 +14,12 @@ public class _04_DataTypeTest {
   int intMax = Integer.MAX_VALUE;
   // The main difference between byte -> long is the maximum and minimum
   // supported numbers. The smallest, byte supports -128 to 127.
-  long longMax = Long.MAX_VALUE;
+  // Ints given to a long var will automatically be converted to long. However,
+  // if a number beyond the max range of int is given, an error will be retuned.
+  // To initialize an int instead of depending on automatic conversion, use a
+  // trailing l. Caps or no caps doesn't matter, but caps is often used to
+  // avoid ambiguity with the number 1.
+  long longMax = 9223372036854775807L;
   // A float must be defined with a trailing f. A simple decimal place defaults
   // to a double.
   float floatEx = 1.01f;
