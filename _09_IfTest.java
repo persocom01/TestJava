@@ -65,4 +65,5 @@ public class _09_IfTest {
     it.switchTest(Direction.west);
     it.switchTest(Direction.home);
   }
+
 }

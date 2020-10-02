@@ -4,8 +4,6 @@
 // 2. for
 // 3. do... while
 
-// Needed to use sqrt.
-import java.lang.Math;
 // Needed for arraylists.
 import java.util.*;
 
@@ -71,4 +69,5 @@ public class _08_LoopTest {
     lt.forLoop(10);
     lt.doWhileLoop(3);
   }
+
 }

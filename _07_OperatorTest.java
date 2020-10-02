@@ -1,6 +1,4 @@
 // Demonstrates operators in java.
-// Java does not have a power operator. Power requires this import.
-import java.lang.Math;
 
 public class _07_OperatorTest {
 
@@ -142,4 +140,5 @@ public class _07_OperatorTest {
     System.out.println();
     ot.logicalOperatorTest();
   }
+
 }

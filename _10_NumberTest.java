@@ -1,10 +1,11 @@
-// Demonstrates the methods built into the number wrapper classes.
+// Demonstrates the methods built into the number wrapper class.
 
 public class _10_NumberTest {
 
-  public static void main(String []args) {
+  void numTest() {
     // To call the number class wrapper instead of the primitive data type,
-    // capitalize the first letter, except for int, whose class is Integer.
+    // capitalize the first letter, except for int and Char, whose classes are
+    // Integer and Character respectively.
     Float x = 1.5f;
     int y;
     String z;
@@ -19,7 +20,9 @@ public class _10_NumberTest {
     // number in the bracket is the same. Otherwise false.
     System.out.println("equals: " + x.equals(1.5));
     // numberObject.valueOf(value) returns the number object equivalent of the
-    // argument passed to it. The argument can be a string.
+    // argument passed to it. The argument can be a string. If a char is given
+    // the results will be strange, such as Float.valueOf('0') = 48, so when
+    // dealing with char, convert them to a string first.
     x = Float.valueOf("1337");
     System.out.println("valueOf: " + x);
     // Integer.valueOf is special in that it can accept two arguments, a string
@@ -107,6 +110,11 @@ public class _10_NumberTest {
     rad = Math.atan2(12, 5);
     double deg = Math.toDegrees(rad);
     System.out.println("atan2: " + deg);
+  }
+
+  public static void main(String []args) {
+    _10_NumberTest nt = new _10_NumberTest();
+    nt.numTest();
   }
 
 }

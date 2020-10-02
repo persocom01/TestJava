@@ -5,7 +5,9 @@ public class _04_DataTypeTest {
   // be found here:
   // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
   // It should be noted that it is possible to initialize a variable using
-  // class wrappers instead of the primitive data type.
+  // class wrappers instead of the primitive data type by, in all cases except
+  // int and char, capitalizing the first letter. The class wrappers for int
+  // and char are Integer and Character respectively.
   // Byte n; and byte n; are not the same. The former is a class, which takes
   // up more memory, but has can execute methods. The importance of this can
   // be seen when object oriented programming comes into play.

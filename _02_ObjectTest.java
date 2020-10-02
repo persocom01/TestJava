@@ -1,7 +1,6 @@
 // In java, a class is a blueprint from which objects are created.
 
 public class _02_ObjectTest {
-
   int userAge;
   char letter = 'A';
 
@@ -30,4 +29,5 @@ public class _02_ObjectTest {
     // Retrieve instance variable.
     System.out.println("char value is " + ot.letter);
   }
+
 }

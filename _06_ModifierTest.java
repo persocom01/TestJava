@@ -14,10 +14,10 @@ class AccessModifers {
   private int b = 2;
   // public access is available to different packages provided it is imported.
   // All public methods and variables of a class are inherited by their
-  // subclasses.
+  // subclasses. Interfaces are by default public.
   public int c = 3;
   // protected access restricts access to the class and its subclasses. Classes
-  // and interfaces cannot be protected.
+  // are by default protected. Interfaces cannot be protected.
   protected int d = 4;
 }
 
@@ -69,7 +69,7 @@ class ExtendMeSub extends ExtendMe {
 
 public class _06_ModifierTest {
 
-  public void accessTest() {
+  void accessTest() {
     AccessModifers accessMod = new AccessModifers();
     System.out.println("default: " + accessMod.a);
     // private variables cannot be accessed even if the class it is in is
@@ -79,7 +79,7 @@ public class _06_ModifierTest {
     System.out.println("protected: " + accessMod.d);
   }
 
-  public void nonAccessTest() {
+  void nonAccessTest() {
     NonAccessModifers nonAccessMod = new NonAccessModifers();
     // NonAccessModifers nonAccessMod2 = new NonAccessModifers();
     nonAccessMod.addToStatic();
@@ -96,7 +96,7 @@ public class _06_ModifierTest {
     System.out.println("volatile: " + nonAccessMod.z);
   }
 
-  public void abstractTest() {
+  void abstractTest() {
     ExtendMeSub abstractMod = new ExtendMeSub();
     abstractMod.abstactMethod();
   }
@@ -107,4 +107,5 @@ public class _06_ModifierTest {
     mt.nonAccessTest();
     mt.abstractTest();
   }
+
 }

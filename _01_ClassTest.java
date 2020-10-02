@@ -11,10 +11,10 @@
 // modifiers.
 // Access modifiers: default, public, protected, private.
 // Non access modifiers: final, abstract, strictfp.
-// There can only be one public class per program. Class objects are by default
-// protected, and can only be accessed by classes within the same package.
+// Classes cannot be protected, because they are by default protected, and can
+// only be accessed by classes within the same package. There can only be one
+// public class per .java file.
 public class _01_ClassTest {
-
   // Method names are in camelCase, with the first letter in lower case.
   // Java program processing starts with the main method, which is neccessary in
   // every program.
