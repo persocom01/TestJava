@@ -10,6 +10,7 @@ public class _11_CharacterTest {
     Character[] chars = {'a', '2', ' ', 'A', 'a', 'a', 'A', 's'};
     char ch;
     boolean isTrue;
+    String s;
     int i;
 
     // Character.isLetter(char) and other methods determine if the passed
