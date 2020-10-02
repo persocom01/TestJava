@@ -42,7 +42,9 @@ public class _11_CharacterTest {
     // first converted to an ASCII int value before being added together.
     // To get 0 + 0 = 0, first convert the char to a string before converting
     // the string to a number using numberObject.valueOf(value).
+    s = '0' + "0"
     i = '0' + '0';
+    System.out.println("char and string \"" + '0' + '0' + "\" mixed sum: " + i);
     System.out.println("\"" + '0' + '0' + "\" sum: " + i);
   }
 
