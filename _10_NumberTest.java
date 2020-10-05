@@ -94,9 +94,9 @@ public class _10_NumberTest {
     System.out.println("sin: " + x);
     // We use format %.2f to round the number to two decimal places here.
     x = (float)Math.cos(rad);
-    System.out.format("cos: %.2f\n", x);
+    System.out.printf("cos: %.2f\n", x);
     x = (float)Math.tan(rad);
-    System.out.format("tan: %.0f\n", x);
+    System.out.printf("tan: %.0f\n", x);
     // Math.asin(value) and other inverse trig functions return the angle, in
     // radians of the trig ratios given to them as a double.
     x = (float)Math.asin(1);

@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class _12_StringTest {
 
+  // Demonstrates returning the length of a string.
   void strLen(String s) {
     int len = s.length();
     System.out.println("the length of " + s + " is " + len);
@@ -34,9 +35,21 @@ public class _12_StringTest {
     System.out.println(s);
   }
 
-  void strFormat() {
-    float f = 1.5;
+  // Demonstrates formatting strings.
+  void strFormat(String name, int num, double price) {
+    String fs;
 
+    // %[argument_index$][flags][width][.precision]conversion
+    // argument_index$ indicates which argument to substitute into the position.
+    // .precision determines the number of decimal places flor floats or the
+    // number of letters from the beginning of a string.
+    // More detail on the rest here: https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html
+    fs = String.format("%3$s went to the market to buy %2$d apples at $%1$.2f each.", price, num, name);
+    System.out.println(fs);
+
+    // When printing to system out, one can use .printf or .format. They are
+    // identical.
+    System.out.printf("%2$s carried the %1$d apples home.", num, name);
   }
 
   // The new String constructor takes
@@ -49,6 +62,8 @@ public class _12_StringTest {
     st.strLen("12345678910");
     System.out.println();
     st.strConstructor();
+    System.out.println();
+    st.strFormat("John", 30, 1.5);
     st.strTest();
   }
 
