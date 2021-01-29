@@ -31,7 +31,9 @@ public class _04_DataTypeTest {
   double doubleEx = 1.01;
   // A char is a single character. It can be a letter, number, or one of the
   // unicode escape sequences like '\u0000'. char is in single quotes '' while
-  // String is in double quotes "". They are not interchangable.
+  // String is in double quotes "". They are not interchangable. A list of
+  // unicode chars can be found here:
+  // https://www.rapidtables.com/code/text/unicode-characters.html
   char charEx = '\u005F';
   boolean isBool = true;
   String strEx = "The quick brown fox jumps over the lazy dog";
