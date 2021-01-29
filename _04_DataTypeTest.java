@@ -48,6 +48,8 @@ public class _04_DataTypeTest {
     System.out.println("float: " + dt.floatEx);
     System.out.println("double: " + dt.doubleEx);
     System.out.println("char: " + dt.charEx);
+    // char can be converted to int in java.
+    System.out.println("char typecast: " + (int)dt.charEx);
     System.out.println("boolean: " + dt.isBool);
     System.out.println("String: " + dt.strEx);
   }
