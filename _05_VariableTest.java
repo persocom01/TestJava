@@ -28,7 +28,7 @@ public class _05_VariableTest {
 
   // Class - instance variables with the static keyword.
   // Class variables are rarely used other than being declared constants.
-  // Constants are variables  that are final and static, and never change their
+  // Constants are variables that are final and static, and never change their
   // value. When class variables are public static final, their names are in
   // all caps.
   public static final String TITLE = "variable testing program";
