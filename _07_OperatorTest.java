@@ -37,7 +37,7 @@ public class _07_OperatorTest {
     x = 1;
     y = x++;
     System.out.println("post increment:\n" + y);
-    // NNot an operator, but this is how to do power if it is needed.
+    // Not an operator, but this is how to do power if it is needed.
     x = 2;
     y = Math.pow(x, 8);
     System.out.println("power:\n" + y);
