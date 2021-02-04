@@ -74,6 +74,8 @@ public class _07_OperatorTest {
     int y = 13;
     int z;
     String s;
+    // .toString(target, radix). radix = 2 is used to convert the int into its
+    // binary representation.
     s = String.format("%7s", Integer.toString(x, 2)).replace(' ', '0');
     System.out.println("binary 60: " + s);
     s = String.format("%7s", Integer.toString(y, 2)).replace(' ', '0');
