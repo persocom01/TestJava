@@ -55,7 +55,7 @@ public class _04_DataTypeTest {
   }
 }
 
-// Java also supports special escape (\) characters as defined here:
+// java supports special escape (\) characters as defined below:
 // \n	Newline (0x0a)
 // \r	Carriage return (0x0d)
 // \f	Formfeed (0x0c)
