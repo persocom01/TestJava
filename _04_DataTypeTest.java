@@ -39,19 +39,19 @@ public class _04_DataTypeTest {
   String strEx = "The quick brown fox jumps over the lazy dog";
 
   public static void main(String []args) {
-    _04_DataTypeTest dt = new _04_DataTypeTest();
+    _04_DataTypeTest dtt = new _04_DataTypeTest();
     System.out.println("data type examples");
-    System.out.println("byte: " + dt.byteMax);
-    System.out.println("short: " + dt.shortMax);
-    System.out.println("int: " + dt.intMax);
-    System.out.println("long: " + dt.longMax);
-    System.out.println("float: " + dt.floatEx);
-    System.out.println("double: " + dt.doubleEx);
-    System.out.println("char: " + dt.charEx);
+    System.out.println("byte: " + dtt.byteMax);
+    System.out.println("short: " + dtt.shortMax);
+    System.out.println("int: " + dtt.intMax);
+    System.out.println("long: " + dtt.longMax);
+    System.out.println("float: " + dtt.floatEx);
+    System.out.println("double: " + dtt.doubleEx);
+    System.out.println("char: " + dtt.charEx);
     // char can be converted to int in java.
-    System.out.println("char typecast: " + (int)dt.charEx);
-    System.out.println("boolean: " + dt.isBool);
-    System.out.println("String: " + dt.strEx);
+    System.out.println("char typecast: " + (int)dtt.charEx);
+    System.out.println("boolean: " + dtt.isBool);
+    System.out.println("String: " + dtt.strEx);
   }
 }
 
