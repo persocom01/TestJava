@@ -56,14 +56,14 @@ public class _04_DataTypeTest {
 }
 
 // java supports special escape (\) characters as defined below:
-// \n	Newline (0x0a)
-// \r	Carriage return (0x0d)
-// \f	Formfeed (0x0c)
-// \b	Backspace (0x08)
+// \n	new line (0x0a)
+// \r	carriage return (0x0d)
+// \f	form feed (0x0c)
+// \b	backspace (0x08)
 // \s	Space (0x20)
 // \t	tab
-// \"	Double quote
-// \'	Single quote
+// \"	double quote
+// \'	single quote
 // \\	backslash
-// \ddd	Octal character (ddd)
-// \udddd	Hexadecimal UNICODE character (dddd)
+// \ddd	octal character (ddd)
+// \udddd	hexadecimal UNICODE character (dddd)
