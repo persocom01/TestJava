@@ -35,6 +35,7 @@ public class _09_IfTest {
     //  break;
     // default:
     //  code;
+    //  break;
     // }
     // switch only accepts int types, char, String and enum as variables.
     switch(d) {
@@ -52,6 +53,9 @@ public class _09_IfTest {
         break;
       default:
         System.out.println(d + " is where your heart is.");
+        // break is technically unnecessary in the default switch. However, it
+        // does make java code more consistent with C#.
+        break;
     }
   }
 
