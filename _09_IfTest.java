@@ -43,6 +43,8 @@ public class _09_IfTest {
       // north instead of Direction.north
       case north:
         System.out.println(d + " is where the polar bears live");
+        break;
+      case south:
         System.out.println(d + " is where a continent lies encased in ice.");
         break;
       case east:
