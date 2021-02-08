@@ -35,7 +35,7 @@ public class _08_LoopTest {
   void forLoop(int n) {
     int f = 3;
     Integer[] arr = {};
-    // for(dataType var = value; condition; update) {code}
+    // for(dataType var = value; condition; increment) {code}
     // for loops include in their implementation the count variable as well as
     // the stop condition, making them safer than while loops.
     for(int i = 1; i < n; i++) {
